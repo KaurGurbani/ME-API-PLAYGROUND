@@ -20,31 +20,31 @@ bash
 git clone https://github.com/YOUR_USERNAME/me-api-playground.git
 cd me-api-playground/backend
 
- # 2. Install dependencies
+ ### 2. Install dependencies
 npm install
 
-# 3. Set up PostgreSQL
+### 3. Set up PostgreSQL
 Make sure PostgreSQL is running locally.
 Create a database:
 createdb meapi
 
-# 4. Environment variables
+### 4. Environment variables
 Create a .env file in backend/:
 DATABASE_URL="postgresql://<user>:<password>@localhost:5432/meapi"
 PORT=4000
 
-# 5. Run migrations
+### 5. Run migrations
 npm run prisma:dev
 
-# 6. Seed the database
+### 6. Seed the database
 npm run seed
 
-# 7. Start the server
+### 7. Start the server
 npm run dev
 Server runs at:
 👉 http://localhost:4000
 
-# 🔗 API Endpoints
+# API Endpoints
 GET /health
 ✅ Returns 200 OK
 
