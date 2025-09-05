@@ -17,10 +17,10 @@ This project powers endpoints for profile, skills, projects, work experience, an
 
 ### 1. Clone the repository
 bash
-git clone https://github.com/YOUR_USERNAME/me-api-playground.git
+git clone https://github.com/KaurGurbani/ME-API-PLAYGROUND
 cd me-api-playground/backend
 
- ### 2. Install dependencies
+### 2. Install dependencies
 npm install
 
 ### 3. Set up PostgreSQL
@@ -44,9 +44,9 @@ npm run dev
 Server runs at:
 👉 http://localhost:4000
 
-# API Endpoints
+## API Endpoints
 GET /health
-✅ Returns 200 OK
+Returns 200 OK
 
 ## Profile
 GET /profile
